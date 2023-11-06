@@ -51,7 +51,7 @@ body {
 
 .complaint-heading {
     text-align: center;
-    color: #333;
+    color: #1a1111;
 }
 
 .form-group {
@@ -60,7 +60,8 @@ body {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
