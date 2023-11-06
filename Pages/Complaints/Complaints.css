@@ -40,7 +40,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.container {
+.complaint-container {
     background-color: #fff;
     padding: 20px;
     margin: 0 auto;
@@ -49,9 +49,9 @@ body {
     border-radius: 5px;
 }
 
-h1 {
+.complaint-heading {
     text-align: center;
-    color: #333;
+    color: #1a1111;
 }
 
 .form-group {
@@ -60,7 +60,8 @@ h1 {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
