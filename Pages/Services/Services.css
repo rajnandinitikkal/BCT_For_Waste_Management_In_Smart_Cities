@@ -34,19 +34,19 @@ a{
     width: 100%;
 }
 
-.h1{
+.heading{
     margin-top: 40px;
     text-align:center;
 }
 
-div{
+.img-section{
     display: flex;
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
 }
 
-div img{
+.img-item{
     width:400px;
     height: 300px;
     border:2px solid #ff3d0036;
@@ -64,8 +64,6 @@ div img:hover{
 *{
     margin: 0;
 }
-
-
 .footer-container{
     background-image: url("https://t4.ftcdn.net/jpg/05/00/76/75/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg");
     width: 100%;
@@ -100,4 +98,3 @@ div img:hover{
 .social-icons{
     margin:5px 13px;
 }
-
