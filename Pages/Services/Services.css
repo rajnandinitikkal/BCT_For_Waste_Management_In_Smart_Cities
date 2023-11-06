@@ -33,9 +33,39 @@ a{
 .bg-image{
     width: 100%;
 }
+
+.h1{
+    margin-top: 40px;
+    text-align:center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+div img{
+    width:400px;
+    height: 300px;
+    border:2px solid #ff3d0036;
+    box-shadow: 4px 7px 0px #00000042;
+    cursor:pointer;
+    margin: 10px;
+    transition:400ms;
+}
+
+div img:hover{
+    filter:grayscale(1);
+    transform: scale(1.03);
+}
+
 *{
     margin: 0;
 }
+
+
 .footer-container{
     background-image: url("https://t4.ftcdn.net/jpg/05/00/76/75/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg");
     width: 100%;
@@ -70,3 +100,4 @@ a{
 .social-icons{
     margin:5px 13px;
 }
+
