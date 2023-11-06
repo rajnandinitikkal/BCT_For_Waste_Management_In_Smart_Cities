@@ -41,12 +41,18 @@ body {
 }
 
 .complaint-container {
-    background-color: #fff;
+    background-color:blanchedalmond;
     padding: 20px;
-    margin: 50px auto;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
     max-width: 600px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+   
+}
+.btn{
+    text-align: center;
 }
 
 .complaint-heading {
@@ -76,7 +82,7 @@ textarea {
 
 button {
     background-color: #4CAF50;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,7 +90,10 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a085;
+    margin-left: 5px;
+    margin-right: 4px;
+    
 }
 
 

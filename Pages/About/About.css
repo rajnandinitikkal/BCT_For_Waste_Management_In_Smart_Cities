@@ -39,10 +39,15 @@ a{
 .card-items{
     height: 300px;
     width: 250px;
+    margin-bottom: 50px;
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
     padding-top: 10px;
+}
+.card-items:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
 }
 *{
     margin: 0;
